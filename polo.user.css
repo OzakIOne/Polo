@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Polo
-@namespace      github.com/ozakione/Polo
-@version        1.0.0
+@namespace      https://github.com/OzakIOne/Polo
+@version        1.0.1
 @description    DarkTheme for configomatic
 @author         OzakI
 ==/UserStyle== */
@@ -183,6 +183,26 @@
 }
 .configomatic-vue .tacButton:hover {
     background-color: #0277BD;
+}
+
+b, strong {
+    color: #2979FF;
+}
+
+b, strong:hover {
+    color: #0277BD;
+}
+
+a {
+    color: #2979FF;
+}
+
+a:hover {
+    color: #2979FF;
+}
+
+a:visited {
+    color: #2979FF;
 }
 
 .configomatic-vue .tacButton:disabled:hover {
