@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Polo
 @namespace      https://github.com/OzakIOne/Polo
-@version        1.0.4
+@version        1.0.5
 @description    DarkTheme for configomatic
 @author         OzakI
 ==/UserStyle== */
@@ -310,5 +310,29 @@ a:visited {
 
 .intro.tajustify::after {
     content: "Thème créer par OzakI, tu peux venir ici : discord.gg/sardoche dans #aide_informatique pour me proposer une amélioration, avoir des conseils sur une config de pc ou me remercier ;)"
+}
+
+#masthead {
+    background-color: #202020;
+}
+
+#primary-nav {
+    background-color: #202020;
+    border: 0px;
+}
+#primary-nav a {
+    color: #bdbdbd;
+}
+
+#primary-nav ul {
+    border: 0px;
+}
+
+#primary-nav ul li {
+    border: 0px;
+}
+
+#primary-nav li:hover {
+    background-color: #303030;
 }
 }
