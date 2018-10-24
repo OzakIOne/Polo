@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Polo
 @namespace      https://github.com/OzakIOne/Polo
-@version        1.0.2
+@version        1.0.3
 @description    DarkTheme for configomatic
 @author         OzakI
 ==/UserStyle== */
@@ -128,7 +128,7 @@
 }
 
 .configomatic__table .configomatic__table--row:hover:not(.configomatic__table--header) {
-    background-color: #404040;
+    background-color: #404040 !important;
 }
 
 .configomatic__product-list .configomatic__product-list--search .configomatic__search-filter {
@@ -291,6 +291,24 @@ a:visited {
 }
 
 .configomatic__item--status.available, .configomatic__item--status.limited-stock, .configomatic__item--status.in-stock {
-    color: #64DD17;
+    background-color: #64DD17;
+}
+
+.configomatic__product-list .configomatic__product-list--header .configomatic__product-list--total .configomatic__product-list--total-amount {
+    color: #FF1744;
+}
+
+.configomatic__table .configomatic__table--row.isCurrent:not(.configomatic__table--header) {
+    background-color: #283593;
+}
+
+.configomatic__table .configomatic__item--prix {
+    color: #FF1744;
+}
+
+.multiselect__input, .multiselect__single {
+    background-color: #202020;
+    color: #bdbdbd;
+    font-weight: bold;
 }
 }
