@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Polo
 @namespace      https://github.com/OzakIOne/Polo
-@version        1.0.1
+@version        1.0.2
 @description    DarkTheme for configomatic
 @author         OzakI
 ==/UserStyle== */
@@ -268,5 +268,21 @@ a:visited {
 
 .configomatic__product-sheet .configomatic__product-sheet--header .configomatic__product-sheet--add:hover {
     background-color: #00C853
+}
+
+.configomatic__preview .configomatic__preview--panel .configomatic__preview--config .configomatic__preview--item .configomatic__preview--price {
+    color: #FF1744;
+}
+
+.configomatic__save .configomatic__save--configs .configomatic__save--delete-all a {
+    color: #FF1744;
+}
+
+.configomatic__preview .configomatic__preview--panel .configomatic__preview--total .configomatic__preview--price {
+    color: #FF1744;
+}
+
+.configomatic-product .configomatic-product__content .configomatic-product__info .configomatic-product__price {
+    color: #FF1744;
 }
 }
