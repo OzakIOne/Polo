@@ -285,4 +285,12 @@ a:visited {
 .configomatic-product .configomatic-product__content .configomatic-product__info .configomatic-product__price {
     color: #FF1744;
 }
+
+.cfgo-availability.available, .cfgo-availability.limited-stock, .cfgo-availability.in-stock {
+    color: #64DD17;
+}
+
+.configomatic__item--status.available, .configomatic__item--status.limited-stock, .configomatic__item--status.in-stock {
+    color: #64DD17;
+}
 }
