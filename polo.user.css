@@ -1,338 +1,357 @@
 /* ==UserStyle==
 @name           Polo
 @namespace      https://github.com/OzakIOne/Polo
-@version        1.0.5
+@version        1.0.6
 @description    DarkTheme for configomatic
 @author         OzakI
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://www.topachat.com/pages/configomatic.php") {
 
-@font-face {
-    font-family: Google Sans;
-    src: url(https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i);
-}
-
-.configomatic-vue #wrapper {
-    background-color: #202020;
-    font-family: Google Sans;
-}
-
-.configomatic__content--left .configomatic__combos .components {
-    background-color: #303030;
-    color: #bdbdbd;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper {
-    background-color: #202020;
-}
-
-.configomatic__content--left .configomatic__combos .configomatic__combo.hasProduct{
-    background-color: #202020;
-}
-
-.configomatic__content--left .configomatic__combos .configomatic__combo{
-    border: 1px solid #202020;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before {
-    border: 0px;
-}
-
-.configomatic__content--left .configomatic__combos .configomatic__combo-promo .configomatic__promo{
-    border: 0px;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CBB .CBB, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CBB .KMO, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KMO .CBB, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KMO .KMO {
-    border: 0px;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle {
-    border: 0px;
-    font-family: Google Sans;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before{
-    border: 0px;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before{
-    border: 0px;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before{
-    border: 0px;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB0 .CB0, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB0 .KEY, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KEY .CB0, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KEY .KEY {
-    border: 0px;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB5 .CB5, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB5 .MOU, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--MOU .CB5, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--MOU .MOU {
-    border: 0px;
-}
-
-.configomatic__preview .configomatic__preview--panel h2 {
-    border-bottom: 1px solid #a7a7a7;
-}
-
-.configomatic__preview .configomatic__preview--panel .configomatic__preview--total {
-    border-top: 1px solid #a7a7a7;
-}
-
-.configomatic__content--left .configomatic__combos .configomatic__combo-promo .configomatic__promo {
-    display: none;
-}
-
-.configomatic__section {
-    background-color: #303030;
-    color: #bdbdbd;
-}
-
-.configomatic__preview .configomatic__preview--panel {
-    background-color: #303030;
-    color: #bdbdbd;
-}
-
-.configomatic__product-list {
-    background-color: #202020;
-    color: #bdbdbd;
-}
-    
-.multiselect__tags {
-    background-color: #303030;
-    border: 1px solid #202020;
-}
-
-.multiselect__element {
-    background-color: #353535;
-    color: #bdbdbd;
-}
-    
-.multiselect__option--highlight {
-    background: #505050;
-    color: #bdbdbd;
-}
-.configomatic__table .configomatic__table--row {
-    background-color: #303030;
-    grid-column-gap: 0px;
-}
-
-.multiselect--above .multiselect__content-wrapper {
-    border: 1px solid #303030;
-}
-
-.configomatic__table .configomatic__table--row:nth-child(even):not(.configomatic__table--header)>.configomatic__table--item {
-    background-color: #353535;
-    
-}
-
-.configomatic__table .configomatic__table--row:hover:not(.configomatic__table--header) {
-    background-color: #404040 !important;
-}
-
-.configomatic__product-list .configomatic__product-list--search .configomatic__search-filter {
-    background-color: #202020;
-}
-
-.configomatic__product-sheet{
-    background-color: #202020;
-    color: #bdbdbd;
-}
-
-.caracLine {
-    background-color: #303030;
-}
-
-.caracLine:nth-of-type(even) {
-    background-color: #353535;
-}
-
-.configomatic__saved-config .show-sibling {
-    display: none;
-}
-
-.configomatic__save .configomatic__save--configs .configomatic__save--list {
-    background-color: #303030;
-}
-
-.configomatic__save .configomatic__save--configs .configomatic__save--list .configomatic__save--config.isCurrent {
-    background-color: #202020;
-}
-.configomatic .configomatic__share {
-    color: #bdbdbd;
-}
-
-.configomatic .configomatic__share--options .configomatic__share--facebook {
-    display: none;
-}
-
-.configomatic .configomatic__share--options .configomatic__share--twitter {
-    display: none;
-}
-
-#site-footer {
-    display: none;
-}
-
-
-
-.configomatic-vue .tacButton {
-    background-color: #2979FF;
-    font-family: Google Sans;
-}
-.configomatic-vue .tacButton:hover {
-    background-color: #0277BD;
-}
-
-b, strong {
-    color: #2979FF;
-}
-
-a {
-    color: #2979FF;
-}
-
-a:hover {
-    color: #2979FF;
-}
-
-a:visited {
-    color: #2979FF;
-}
-
-.configomatic-vue .tacButton:disabled:hover {
-    background-color: #A7A7A7;
-}
-
-.configomatic__preview .configomatic__preview--actions .configomatic__preview--add {
-    background-color: #64DD17;
-}
-
-.configomatic__preview .configomatic__preview--actions .configomatic__preview--add:hover {
-    background-color: #00C853;
-}
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle {
-    color: #2979FF;
-}
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle:hover {
-    color: #0277BD;
-    background-color: #202020;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove {
-    color: #2979FF;
-    font-family: Google Sans;
-}
-
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:hover {
-    background-color: transparent;
-    color: #0277BD;
-}
-
-.configomatic__product-list .configomatic__best-seller .configomatic__best-seller--header .configomatic__best-seller--title {
-    background-color: #2979FF;
-}
-
-.configomatic__product-list .configomatic__product-list--search .icon-search:before {
-    color: #2979FF;
-}
-
-.configomatic__product-list .configomatic__product-list--search .configomatic__search-filter {
-    border-bottom: 3px solid #2979FF;
-}
-
-.configomatic__filters .vue-slider-component .vue-slider-process {
-    background-color: #2979FF;
-}
-
-.configomatic__filters--checkbox input[type=checkbox]:checked+label:after {
-    color: #2979FF;
-}
-
-.configomatic__table .configomatic__table--header .configomatic__table--item-header {
-    background-color: #2979FF;
-}
-
-.configomatic__table .configomatic__table--header .configomatic__table--item-header:hover {
-    background-color: #0277BD;
-}
-
-.configomatic__product-sheet .configomatic__product-sheet--header .configomatic__product-sheet--add {
-    background-color: #64DD17;
-}
-
-.configomatic__product-sheet .configomatic__product-sheet--header .configomatic__product-sheet--add:hover {
-    background-color: #00C853
-}
-
-.configomatic__preview .configomatic__preview--panel .configomatic__preview--config .configomatic__preview--item .configomatic__preview--price {
-    color: #FF1744;
-}
-
-.configomatic__save .configomatic__save--configs .configomatic__save--delete-all a {
-    color: #FF1744;
-}
-
-.configomatic__preview .configomatic__preview--panel .configomatic__preview--total .configomatic__preview--price {
-    color: #FF1744;
-}
-
-.configomatic-product .configomatic-product__content .configomatic-product__info .configomatic-product__price {
-    color: #FF1744;
-}
-
-.cfgo-availability.available, .cfgo-availability.limited-stock, .cfgo-availability.in-stock {
-    color: #64DD17;
-}
-
-.configomatic__item--status.available, .configomatic__item--status.limited-stock, .configomatic__item--status.in-stock {
-    background-color: #64DD17;
-}
-
-.configomatic__product-list .configomatic__product-list--header .configomatic__product-list--total .configomatic__product-list--total-amount {
-    color: #FF1744;
-}
-
-.configomatic__table .configomatic__table--row.isCurrent:not(.configomatic__table--header) {
-    background-color: #283593;
-}
-
-.configomatic__table .configomatic__item--prix {
-    color: #FF1744;
-}
-
-.multiselect__input, .multiselect__single {
-    background-color: #202020;
-    color: #bdbdbd;
-    font-weight: bold;
-}
-
-.intro.tajustify::after {
-    content: "Thème créer par OzakI, tu peux venir ici : discord.gg/sardoche dans #aide_informatique pour me proposer une amélioration, avoir des conseils sur une config de pc ou me remercier ;)"
-}
-
-#masthead {
-    background-color: #202020;
-}
-
-#primary-nav {
-    background-color: #202020;
-    border: 0px;
-}
-#primary-nav a {
-    color: #bdbdbd;
-}
-
-#primary-nav ul {
-    border: 0px;
-}
-
-#primary-nav ul li {
-    border: 0px;
-}
-
-#primary-nav li:hover {
-    background-color: #303030;
-}
+    @font-face {
+        font-family: Google Sans !important;
+        src:url(https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i);
+    }
+
+    .configomatic-vue #wrapper {
+        background-color: #202020;
+        font-family: Google Sans;
+    }
+
+    .configomatic__content--left .configomatic__combos .components {
+        background-color: #303030;
+        color: #bdbdbd;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper {
+        background-color: #202020;
+    }
+
+    .configomatic__content--left .configomatic__combos .configomatic__combo.hasProduct {
+        background-color: #202020;
+    }
+
+    .configomatic__content--left .configomatic__combos .configomatic__combo {
+        border: 1px solid #202020;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before,
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before {
+        border: 0px;
+    }
+
+    .configomatic__content--left .configomatic__combos .configomatic__combo-promo .configomatic__promo {
+        border: 0px;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CBB .CBB,
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CBB .KMO,
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KMO .CBB,
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KMO .KMO {
+        border: 0px;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle {
+        border: 0px;
+        font-family: Google Sans;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before,
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before {
+        border: 0px;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before,
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before {
+        border: 0px;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before,
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before {
+        border: 0px;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB0 .CB0,
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB0 .KEY,
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KEY .CB0,
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KEY .KEY {
+        border: 0px;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB5 .CB5,
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB5 .MOU,
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--MOU .CB5,
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--MOU .MOU {
+        border: 0px;
+    }
+
+    .configomatic__preview .configomatic__preview--panel h2 {
+        border-bottom: 1px solid #a7a7a7;
+    }
+
+    .configomatic__preview .configomatic__preview--panel .configomatic__preview--total {
+        border-top: 1px solid #a7a7a7;
+    }
+
+    .configomatic__content--left .configomatic__combos .configomatic__combo-promo .configomatic__promo {
+        display: none;
+    }
+
+    .configomatic__section {
+        background-color: #303030;
+        color: #bdbdbd;
+    }
+
+    .configomatic__preview .configomatic__preview--panel {
+        background-color: #303030;
+        color: #bdbdbd;
+    }
+
+    .configomatic__product-list {
+        background-color: #202020;
+        color: #bdbdbd;
+    }
+
+    .multiselect__tags {
+        background-color: #303030;
+        border: 1px solid #202020;
+    }
+
+    .multiselect__element {
+        background-color: #353535;
+        color: #bdbdbd;
+    }
+
+    .multiselect__option--highlight {
+        background: #505050;
+        color: #bdbdbd;
+    }
+    .configomatic__table .configomatic__table--row {
+        background-color: #303030;
+        grid-column-gap: 0px;
+    }
+
+    .multiselect--above .multiselect__content-wrapper {
+        border: 1px solid #303030;
+    }
+
+    .configomatic__table .configomatic__table--row:nth-child(even):not(.configomatic__table--header) > .configomatic__table--item {
+        background-color: #353535;
+    }
+
+    .configomatic__table .configomatic__table--row:hover:not(.configomatic__table--header) {
+        background-color: #404040 !important;
+    }
+
+    .configomatic__product-list .configomatic__product-list--search .configomatic__search-filter {
+        background-color: #202020;
+    }
+
+    .configomatic__product-sheet {
+        background-color: #202020;
+        color: #bdbdbd;
+    }
+
+    .caracLine {
+        background-color: #303030;
+    }
+
+    .caracLine:nth-of-type(even) {
+        background-color: #353535;
+    }
+
+    .configomatic__saved-config .show-sibling {
+        display: none;
+    }
+
+    .configomatic__save .configomatic__save--configs .configomatic__save--list {
+        background-color: #303030;
+    }
+
+    .configomatic__save .configomatic__save--configs .configomatic__save--list .configomatic__save--config.isCurrent {
+        background-color: #202020;
+    }
+    .configomatic .configomatic__share {
+        color: #bdbdbd;
+    }
+
+    .configomatic .configomatic__share--options .configomatic__share--facebook {
+        display: none;
+    }
+
+    .configomatic .configomatic__share--options .configomatic__share--twitter {
+        display: none;
+    }
+
+    #site-footer {
+        display: none;
+    }
+
+
+
+    .configomatic-vue .tacButton {
+        background-color: #2979FF;
+        font-family: Google Sans;
+    }
+    .configomatic-vue .tacButton:hover {
+        background-color: #0277BD;
+    }
+
+    b,
+    strong {
+        color: #2979FF;
+    }
+
+    a {
+        color: #2979FF;
+    }
+
+    a:hover {
+        color: #2979FF;
+    }
+
+    a:visited {
+        color: #2979FF;
+    }
+
+    .configomatic-vue .tacButton:disabled:hover {
+        background-color: #A7A7A7;
+    }
+
+    .configomatic__preview .configomatic__preview--actions .configomatic__preview--add {
+        background-color: #64DD17;
+    }
+
+    .configomatic__preview .configomatic__preview--actions .configomatic__preview--add:hover {
+        background-color: #00C853;
+    }
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle {
+        color: #2979FF;
+    }
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle:hover {
+        color: #0277BD;
+        background-color: #202020;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add,
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove {
+        color: #2979FF;
+        font-family: Google Sans;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:hover,
+    .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:hover {
+        background-color: transparent;
+        color: #0277BD;
+    }
+
+    .configomatic__product-list .configomatic__best-seller .configomatic__best-seller--header .configomatic__best-seller--title {
+        background-color: #2979FF;
+    }
+
+    .configomatic__product-list .configomatic__product-list--search .icon-search:before {
+        color: #2979FF;
+    }
+
+    .configomatic__product-list .configomatic__product-list--search .configomatic__search-filter {
+        border-bottom: 3px solid #2979FF;
+    }
+
+    .configomatic__filters .vue-slider-component .vue-slider-process {
+        background-color: #2979FF;
+    }
+
+    .configomatic__filters--checkbox input[type=checkbox]:checked + label:after {
+        color: #2979FF;
+    }
+
+    .configomatic__table .configomatic__table--header .configomatic__table--item-header {
+        background-color: #2979FF;
+    }
+
+    .configomatic__table .configomatic__table--header .configomatic__table--item-header:hover {
+        background-color: #0277BD;
+    }
+
+    .configomatic__product-sheet .configomatic__product-sheet--header .configomatic__product-sheet--add {
+        background-color: #64DD17;
+    }
+
+    .configomatic__product-sheet .configomatic__product-sheet--header .configomatic__product-sheet--add:hover {
+        background-color: #00C853
+    }
+
+    .configomatic__preview .configomatic__preview--panel .configomatic__preview--config .configomatic__preview--item .configomatic__preview--price {
+        color: #FF1744;
+    }
+
+    .configomatic__save .configomatic__save--configs .configomatic__save--delete-all a {
+        color: #FF1744;
+    }
+
+    .configomatic__preview .configomatic__preview--panel .configomatic__preview--total .configomatic__preview--price {
+        color: #FF1744;
+    }
+
+    .configomatic-product .configomatic-product__content .configomatic-product__info .configomatic-product__price {
+        color: #FF1744;
+    }
+
+    .cfgo-availability.available,
+    .cfgo-availability.limited-stock,
+    .cfgo-availability.in-stock {
+        color: #64DD17;
+    }
+
+    .configomatic__item--status.available,
+    .configomatic__item--status.limited-stock,
+    .configomatic__item--status.in-stock {
+        background-color: #64DD17;
+    }
+
+    .configomatic__product-list .configomatic__product-list--header .configomatic__product-list--total .configomatic__product-list--total-amount {
+        color: #FF1744;
+    }
+
+    .configomatic__table .configomatic__table--row.isCurrent:not(.configomatic__table--header) {
+        background-color: #283593;
+    }
+
+    .configomatic__table .configomatic__item--prix {
+        color: #FF1744;
+    }
+
+    .multiselect__input,
+    .multiselect__single {
+        background-color: #202020;
+        color: #bdbdbd;
+        font-weight: bold;
+    }
+
+    .intro.tajustify::after {
+        content: "Thème créer par OzakI, tu peux venir ici : discord.gg/sardoche dans #aide_informatique pour me proposer une amélioration, avoir des conseils sur une config de pc ou me remercier ;)"
+    }
+
+    #masthead {
+        background-color: #202020;
+    }
+
+    #primary-nav {
+        background-color: #202020;
+        border: 0px;
+    }
+    #primary-nav a {
+        color: #bdbdbd;
+    }
+
+    #primary-nav ul {
+        border: 0px;
+    }
+
+    #primary-nav ul li {
+        border: 0px;
+    }
+
+    #primary-nav li:hover {
+        background-color: #303030;
+    }
 }
