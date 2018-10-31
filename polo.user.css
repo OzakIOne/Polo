@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Polo
 @namespace      https://github.com/OzakIOne/Polo
-@version        1.0.6
+@version        1.0.7
 @description    DarkTheme for configomatic
 @author         OzakI
 ==/UserStyle== */
@@ -353,5 +353,19 @@
 
     #primary-nav li:hover {
         background-color: #303030;
+    }
+
+    @media screen and (max-width: 1365px) {
+    .configomatic__preview .configomatic__preview--component .configomatic__preview--config .configomatic__preview--toggle-button.tacButton {
+        background-color: #303030;
+    }
+
+    .configomatic__preview .configomatic__preview--component .configomatic__preview--config {
+        background-color: #303030;
+    }
+    
+    .configomatic__preview .configomatic__preview--component {
+        background-color: #303030;
+    }
     }
 }
