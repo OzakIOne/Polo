@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Polo
 @namespace      https://github.com/OzakIOne/Polo
-@version        1.0.7
+@version        1.0.8
 @description    DarkTheme for configomatic
 @author         OzakI
 ==/UserStyle== */
@@ -94,6 +94,44 @@
 
     .configomatic__content--left .configomatic__combos .configomatic__combo-promo .configomatic__promo {
         display: none;
+    }
+
+    .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB1 .CB1, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB1 .CB2, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB1 .CB3, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB2 .CB1, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB2 .CB2, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB2 .CB3, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB3 .CB1, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB3 .CB2, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB3 .CB3 {
+        border: none;
+    }
+
+    .configomatic__section .configomatic__section--goUp{
+        display: none;
+    }
+
+    .configomatic-vue #btn-to-top {
+        display: none !important;
+    }
+
+    #cfgo-feadback-btn {
+        transform: none;
+        left: 0;
+        top: inherit;
+        bottom: 0;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #2979FF;
+    }
+
+    .reveal-modal.large {
+        background-color: #202020;
+    }
+
+    .big, .wysiwyg-font-size-big {
+        color: #bdbdbd;
+    }
+
+    blockquote, p {
+        color: #A7A7A7;
+    }
+
+    #feedbackModal input[type=email], #feedbackModal textarea {
+        background-color: #303030;
+        color: #A7A7A7;
     }
 
     .configomatic__section {
