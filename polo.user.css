@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Polo
 @namespace      https://github.com/OzakIOne/Polo
-@version        1.0.8
+@version        1.0.9
 @description    DarkTheme for configomatic
 @author         OzakI
 ==/UserStyle== */
@@ -172,7 +172,7 @@
         border: 1px solid #303030;
     }
 
-    .configomatic__table .configomatic__table--row:nth-child(even):not(.configomatic__table--header) > .configomatic__table--item {
+    .configomatic__table .configomatic__table--row.isEven>.configomatic__table--item {
         background-color: #353535;
     }
 
