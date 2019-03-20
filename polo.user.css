@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Polo
 @namespace      https://github.com/OzakIOne/Polo
-@version        1.0.9
+@version        1.1.0
 @description    DarkTheme for configomatic
 @author         OzakI
 ==/UserStyle== */
@@ -231,7 +231,7 @@
         font-family: Google Sans;
     }
     .configomatic-vue .tacButton:hover {
-        background-color: #0277BD;
+        background-color: #2979FF;
     }
 
     b,
@@ -279,7 +279,7 @@
     .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:hover,
     .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:hover {
         background-color: transparent;
-        color: #0277BD;
+        color: #2979FF;
     }
 
     .configomatic__product-list .configomatic__best-seller .configomatic__best-seller--header .configomatic__best-seller--title {
@@ -307,7 +307,7 @@
     }
 
     .configomatic__table .configomatic__table--header .configomatic__table--item-header:hover {
-        background-color: #0277BD;
+        background-color: #2979FF;
     }
 
     .configomatic__product-sheet .configomatic__product-sheet--header .configomatic__product-sheet--add {
@@ -405,5 +405,62 @@
     .configomatic__preview .configomatic__preview--component {
         background-color: #303030;
     }
+    }
+
+    .configomatic-vue .swal-modal {
+        background-color: #303030;
+        color: #bdbdbd;
+    }
+
+    .swal-text:first-child {
+        color: #bdbdbd;
+    }
+
+    .swal-content__input, .swal-content__textarea {
+        background-color: #202020;
+    }
+
+    .configomatic-vue .swal-modal .swal-button {
+        background-color: #2979FF;
+    }
+
+    .configomatic-vue .swal-modal .swal-button:hover {
+        background-color: #2979FF;
+    }
+
+    .swal-title:not(:last-child) {
+        color: #bdbdbd;
+    }
+
+    .swal-text {
+        color: #bdbdbd;
+    }
+
+    .swal-icon--success:after, .swal-icon--success:before {
+        content: none;
+    }
+
+    .swal-icon {
+        border-color: #00000000;
+    }
+
+    .swal-icon--success__hide-corners {
+        background-color: #00000000;
+    }
+
+    .swal-button:focus {
+        box-shadow: none;
+    }
+
+    .configomatic-vue .swal-modal .swal-button:hover {
+        color: #bdbdbd;
+    }
+
+    .configomatic__results.configomatic__results--assembly .configomatic__assembly--option:hover {
+        background-color: #404040;
+    }
+
+    .configomatic-vue .tacButton:hover {
+        background-color: #2979FF;
     }
 }
