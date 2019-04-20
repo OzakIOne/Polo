@@ -1,20 +1,19 @@
 /* ==UserStyle==
-@name           Polo
-@namespace      https://github.com/OzakIOne/Polo
-@version        1.1.1
-@description    DarkTheme for configomatic
-@author         OzakI
+@name           Dark Topachat Configomatic
+@namespace      ozaki
+@version        1.1.2
+@description    Dark Theme for topachat's configomatic
+@author         ozaki
+@license        MIT
+@homepageURL    https://github.com/ozakione/polo
+@supportURL     https://github.com/ozakione/polo/issues
+@updateURL      https://raw.githubusercontent.com/ozakione/polo/master/polo.user.css
 ==/UserStyle== */
+
 @-moz-document url-prefix("https://www.topachat.com/pages/configomatic.php") {
-
-    @font-face {
-        font-family: Google Sans !important;
-        src:url(https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i);
-    }
-
     .configomatic-vue #wrapper {
         background-color: #202020;
-        font-family: Google Sans;
+        font-family: Open Sans;
     }
 
     .configomatic__content--left .configomatic__combos .components {
@@ -52,7 +51,7 @@
 
     .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle {
         border: 0px;
-        font-family: Google Sans;
+        font-family: Open Sans;
     }
 
     .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before,
@@ -228,7 +227,7 @@
 
     .configomatic-vue .tacButton {
         background-color: #2979FF;
-        font-family: Google Sans;
+        font-family: Open Sans;
     }
     .configomatic-vue .tacButton:hover {
         background-color: #2979FF;
@@ -273,7 +272,7 @@
     .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add,
     .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove {
         color: #2979FF;
-        font-family: Google Sans;
+        font-family: Open Sans;
     }
 
     .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:hover,
@@ -366,7 +365,7 @@
     }
 
     .intro.tajustify::after {
-        content: "Thème créer par OzakI, tu peux venir ici : discord.gg/sardoche dans #aide_informatique pour me proposer une amélioration, avoir des conseils sur une config de pc ou me remercier ;)"
+        content: "Done by ozaki for the health of our eyes"
     }
 
     #masthead {
